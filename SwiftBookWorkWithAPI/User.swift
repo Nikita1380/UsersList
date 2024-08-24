@@ -6,7 +6,7 @@ struct User: Decodable {
     let lastName: String
     let avatar: URL
     
-    static let example = User(id: 1, firstName: "Jane", lastName: "Flower", avatar: URL(staticString: ""))
+    static let example = User(id: 1, firstName: "Jane", lastName: "Flower", avatar: URL(staticString: "https://reqres.in/img/faces/7-image.jpg"))
 }
 
 struct UsersQuery: Decodable {

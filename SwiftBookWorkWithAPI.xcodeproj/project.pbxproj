@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564E64A32C7A3EFE00EB8381 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 564E64A22C7A3EFE00EB8381 /* Kingfisher */; };
+		564E64A52C7A3F1E00EB8381 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E64A42C7A3F1E00EB8381 /* UserTableViewCell.swift */; };
+		564E64A72C7A5A9700EB8381 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E64A62C7A5A9700EB8381 /* NewUserViewController.swift */; };
 		56D1A89E2C775E8D004D2011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D1A89D2C775E8D004D2011 /* AppDelegate.swift */; };
 		56D1A8A02C775E8D004D2011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D1A89F2C775E8D004D2011 /* SceneDelegate.swift */; };
 		56D1A8A52C775E8D004D2011 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 56D1A8A42C775E8D004D2011 /* Base */; };
@@ -22,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		564E64A42C7A3F1E00EB8381 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		564E64A62C7A5A9700EB8381 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		56D1A89A2C775E8D004D2011 /* SwiftBookWorkWithAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBookWorkWithAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D1A89D2C775E8D004D2011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56D1A89F2C775E8D004D2011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564E64A32C7A3EFE00EB8381 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +77,11 @@
 				56D1A89D2C775E8D004D2011 /* AppDelegate.swift */,
 				56D1A89F2C775E8D004D2011 /* SceneDelegate.swift */,
 				56D1A8A32C775E8D004D2011 /* Main.storyboard */,
+				564E64A62C7A5A9700EB8381 /* NewUserViewController.swift */,
 				56D1A8BE2C78D2BE004D2011 /* UserViewController.swift */,
 				56D1A8B12C775F13004D2011 /* UsersTableViewController.swift */,
 				56D1A8B52C776B50004D2011 /* User.swift */,
+				564E64A42C7A3F1E00EB8381 /* UserTableViewCell.swift */,
 				56D1A8B92C777492004D2011 /* URL */,
 				56D1A8A62C775E90004D2011 /* Assets.xcassets */,
 				56D1A8A82C775E90004D2011 /* LaunchScreen.storyboard */,
@@ -109,6 +117,9 @@
 			dependencies = (
 			);
 			name = SwiftBookWorkWithAPI;
+			packageProductDependencies = (
+				564E64A22C7A3EFE00EB8381 /* Kingfisher */,
+			);
 			productName = SwiftBookWorkWithAPI;
 			productReference = 56D1A89A2C775E8D004D2011 /* SwiftBookWorkWithAPI.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 56D1A8912C775E8D004D2011;
+			packageReferences = (
+				564E64A12C7A3EFE00EB8381 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 56D1A89B2C775E8D004D2011 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -168,9 +182,11 @@
 				56D1A8BF2C78D2BE004D2011 /* UserViewController.swift in Sources */,
 				56D1A89E2C775E8D004D2011 /* AppDelegate.swift in Sources */,
 				56D1A8A02C775E8D004D2011 /* SceneDelegate.swift in Sources */,
+				564E64A52C7A3F1E00EB8381 /* UserTableViewCell.swift in Sources */,
 				56D1A8BB2C787E76004D2011 /* NetworkManager.swift in Sources */,
 				56D1A8BD2C78BF0F004D2011 /* Errors.swift in Sources */,
 				56D1A8B62C776B50004D2011 /* User.swift in Sources */,
+				564E64A72C7A5A9700EB8381 /* NewUserViewController.swift in Sources */,
 				56D1A8B22C775F13004D2011 /* UsersTableViewController.swift in Sources */,
 				56D1A8B82C77748B004D2011 /* URLExtension.swift in Sources */,
 			);
@@ -395,6 +411,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		564E64A12C7A3EFE00EB8381 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		564E64A22C7A3EFE00EB8381 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 564E64A12C7A3EFE00EB8381 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56D1A8922C775E8D004D2011 /* Project object */;
 }
